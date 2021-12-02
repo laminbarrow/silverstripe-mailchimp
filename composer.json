@@ -1,5 +1,6 @@
 {
     "name": "jinjie/silverstripe-mailchimp",
+    "type": "silverstripe-vendormodule",
     "require": {
         "silverstripe/cms": "^4",
         "mailchimp/marketing": "^3.0"
@@ -8,5 +9,6 @@
         "psr-4": {
             "SwiftDevLabs\\SSMailchimp\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
