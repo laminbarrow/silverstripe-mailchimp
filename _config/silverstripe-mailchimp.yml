@@ -1,0 +1,17 @@
+---
+name: silverstripe-mailchimp
+---
+
+SilverStripe\Security\Member:
+  extensions:
+    - SwiftDevLabs\SSMailchimp\Extensions\Member
+
+SilverStripe\Core\Injector\Injector:
+  SwiftDevLabs\SSMailchimp\Helpers\MailchimpHelper:
+    properties:
+      ApiKey: '`MAILCHIMP_API_KEY`'
+      Server: '`MAILCHIMP_SERVER`'
+
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - SwiftDevLabs\SSMailchimp\Extensions\SiteConfig

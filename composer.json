@@ -1,0 +1,12 @@
+{
+    "name": "jinjie/silverstripe-mailchimp",
+    "require": {
+        "silverstripe/cms": "^4",
+        "mailchimp/marketing": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SwiftDevLabs\\SSMailchimp\\": "src/"
+        }
+    }
+}
