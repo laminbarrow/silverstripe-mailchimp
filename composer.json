@@ -1,6 +1,18 @@
 {
     "name": "jinjie/silverstripe-mailchimp",
+    "description": "Silvestripe Mailchimp Sync",
     "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "mailchimp",
+        "sync"
+    ],
+    "authors": [
+        {
+            "name": "Kong Jin Jie",
+            "homepage": "https://www.swiftdev.sg/"
+        }
+    ],
     "require": {
         "silverstripe/cms": "^4",
         "mailchimp/marketing": "^3.0"
@@ -10,5 +22,6 @@
             "SwiftDevLabs\\SSMailchimp\\": "src/"
         }
     },
+    "prefer-stable": true,
     "minimum-stability": "dev"
 }
