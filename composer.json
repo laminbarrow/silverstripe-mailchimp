@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "silverstripe/cms": "^4",
+        "silverstripe/cms": "^4 | ^5",
         "mailchimp/marketing": "^3.0"
     },
     "autoload": {
